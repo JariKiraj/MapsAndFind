@@ -1,0 +1,10 @@
+@media (max-width: 950px) {
+    .conteiner{
+        position: relative;
+        display: block;
+        width: 100%;
+        background-color: rgb(218, 218, 218);
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

@@ -1,0 +1,273 @@
+@media (max-width: 575px){
+    .title h1{  
+        position: absolute;
+        text-align: right;
+        margin: 0;
+        padding:0px 15px;
+        font-family: 'Comfortaa', cursive;
+        font-size: 24px;
+        color: rgb(255, 94, 0);
+        background: none;
+    }
+    .icon-bar {
+        position: absolute;
+        display: flex;
+        width: 260px; 
+        background: none ;
+        z-index: 0;
+        margin-left: auto;
+        margin-right: auto;
+        top: 51px;
+        transition: 0.3s;
+    }
+    .btn1{
+        position:relative;
+        display:block;
+        width: 100px;
+        height: 20px;
+        background-color:rgb(255, 94, 0) ;
+        color: aliceblue;
+        font-family: 'Comfortaa', cursive;
+        font-size: 12px;
+        font-weight: 700;
+        border-radius: 15px;
+        border: none;
+        box-shadow: 0px 0px 2px 1px rgb(165, 165, 165) ;
+        margin-right: 30px;
+        margin-left: auto;
+        padding-bottom: 5px;
+        transform: translate(0,-40px);
+        z-index: 3;
+    }
+    .imgtitle{
+        position: relative;
+        z-index: 1;
+        padding-top: 105px;   
+    }
+    #article_01{
+        position: relative;
+        display: block;
+        width: 100%;
+        background: linear-gradient(rgba(201, 201, 201, 0.8), rgb(218, 218, 218) ) ;
+        margin:0px;
+        transform: translate(0px, -40px);
+        z-index: 3;    
+    }
+    .block_01 h3{ 
+        display: block;
+        margin-left: 0px;
+        padding-left: 0px;
+        color:rgb(255, 94, 0) ;
+        font-family:'Comfortaa', cursive ;
+        font-size: 18px;
+        width: 100%;
+        text-align: center;
+    }
+    p{
+        padding: 10px;
+        font-family:'Ubuntu', sans-serif ;
+        font-size: 14px;
+        color:rgb(65, 65, 65) ;
+        transform: translate(0px, -20px);
+    }
+    #article_02{
+        position: relative;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        transform: translate(0px, 0px);
+        z-index: 2; 
+    }
+    .block_02 h3{
+        text-align: center;
+        justify-content: center;
+        color:rgb(255, 94, 0) ;
+        font-family:'Comfortaa', cursive ;
+        margin: 0px 50px;
+        font-size: 18px;
+    }
+    
+    .card{
+        position:relative;
+        display: flex;
+        flex-direction: column;
+        justify-content:start;
+        text-align: center;
+        text-decoration: none;
+        width: 100%;
+        height: 400px;
+        margin-top: 100px;
+        transform: translate(0px, -50px);
+        background: linear-gradient(rgba(201, 201, 201, 0.8),  rgb(218, 218, 218))  ;
+    }
+    .card1{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+    }
+       .card1img{
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 120px;
+        height: 120px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+       }  
+       .card1name{
+        display:block;  
+        margin-left: auto;
+        margin-right: auto;
+        width: 120px;
+        height: 30px;
+        background-color:rgb(255, 94, 0) ;
+        color: aliceblue ;
+        border-radius: 20px;
+       }     
+    .card2{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+    }
+        .card2img{
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 120px;
+            height: 120px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            
+        }
+           .card2name{
+            display:block;  
+            margin-left: auto;
+            margin-right: auto;   
+            width: 120px;
+            height: 30px;
+            background-color:rgb(255, 94, 0) ;
+            color: aliceblue ;
+            border-radius: 20px;
+           }
+               
+               
+    .card3{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+    }
+        .card3img{
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 120px;
+            height: 120px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+            .card3name{
+                display:block;  
+                margin-left: auto;
+                margin-right: auto;
+                width: 120px;
+                height: 30px;
+                background-color:rgb(255, 94, 0) ;
+                color: aliceblue ;
+                border-radius: 25px;
+            }
+   #article_03{
+       position: relative;
+       display: flex;
+       width: 100%;
+       flex-direction: column;
+       justify-content: center;
+       transform: translate(0px, 100px);
+   }            
+    .block_03 h3{ 
+        padding: 15px 15px;
+        color:rgb(255, 94, 0) ;
+        font-family:'Comfortaa', cursive ;
+        font-size: 18px;
+        margin-left:auto;
+        margin-right: auto;
+        width: 100%;   
+        text-align: center;         
+    } 
+    .form{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        background:linear-gradient(rgba(201, 201, 201, 0.8), rgb(218, 218, 218) ) ;
+        color:rgb(255, 94, 0) ;
+    }
+    .formblock input,
+    .formblock textarea{
+        
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        border: none;
+        border-bottom: 1px solid rgb(172, 170, 170);
+        background: transparent ;
+        outline: none;
+        font-size: 12px;
+        font-family:'Ubuntu', sans-serif;
+    }
+    .btn2{
+        position:relative;
+        display:block;
+        width: 120px;
+        height: 30px;
+        background-color:rgb(255, 94, 0) ;
+        color: aliceblue;
+        font-family: 'Comfortaa', cursive;
+        font-size: 14px;
+        font-weight: 700;
+        border-radius: 20px;
+        border: none;
+        box-shadow: 0px 0px 2px 1px rgb(165, 165, 165) ;
+        margin-right: 30px;
+        margin-left: auto;
+        margin-bottom: 5px;
+        padding-bottom: 5px;
+        z-index: 3;
+    } 
+    #footer{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content:start;
+        width: 100%;
+        height: 300px;
+        background:linear-gradient(rgba(201, 201, 201, 0.8), rgb(218, 218, 218) ) ;
+        transform: translate(0px, 150px);
+    }
+    .block_04 h3{ 
+        padding:0;
+        color:rgb(255, 94, 0) ;
+        font-family:'Comfortaa', cursive ;
+        font-size: 26px;
+        margin-left:auto;
+        margin-right: auto;
+        width: 100%;
+        text-align: center;
+    }
+    .contact{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 20px;
+        font-size: 14px;
+    }
+    .contact img{
+        width: 25px;
+        height: 25px;
+    }
+}
